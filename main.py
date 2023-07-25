@@ -23,7 +23,18 @@ try:
     result = result1 - 1
     print("There are " + str(result) + ' matches')
 
+    user_text = input('Enter your data: ')
+
+    print(user_text)
+
+    user_search = input('Enter data to search: ')
+    user_insert = input('Enter data to insert: ')
+
+    user_text1 = user_text.replace(user_search, user_insert, 1)
+
+    print(user_text1)
+
+
 except ValueError as e:
     print(f'Error: {e}')
     print('Invalid data')
-len(text)])
