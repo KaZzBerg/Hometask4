@@ -38,3 +38,15 @@ try:
 except ValueError as e:
     print(f'Error: {e}')
     print('Invalid data')
+
+text = 'Strengths'
+print(text[:])
+print(text[2:3])
+print(text[-2:-1])
+print(text[0:5])
+print(text[0:-2])
+print(text[0:9:2])
+print(text[1:9:2])
+print(text[::-1])
+print(text[::2])
+print([len(text)])
